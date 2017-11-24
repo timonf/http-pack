@@ -1,0 +1,62 @@
+category: HTTP / Status Codes
+questions:
+  -
+    id: http-statuscodes-1
+    question: Which codes are informational responses?
+    answers:
+      - {correct: true,  value: 1xx}
+      - {correct: false, value: 2xx}
+      - {correct: false, value: 3xx}
+      - {correct: false, value: 4xx}
+      - {correct: false, value: 5xx}
+      - {correct: false, value: 6xx}
+      - {correct: false, value: They don't not exist}
+    help: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+  -
+    id: http-statuscodes-2
+    question: Which codes are sucessful responses?
+    answers:
+      - {correct: true,  value: 2xx}
+      - {correct: false, value: 1xx}
+      - {correct: false, value: 3xx}
+      - {correct: false, value: 4xx}
+      - {correct: false, value: 5xx}
+      - {correct: false, value: 6xx}
+      - {correct: false, value: They don't not exist}
+    help: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+  -
+    id: http-statuscodes-3
+    question: Which codes are redirection responses?
+    answers:
+      - {correct: true,  value: 3xx}
+      - {correct: false, value: 1xx}
+      - {correct: false, value: 2xx}
+      - {correct: false, value: 4xx}
+      - {correct: false, value: 5xx}
+      - {correct: false, value: 6xx}
+      - {correct: false, value: They does not exist}
+    help: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+  -
+    id: http-statuscodes-4
+    question: Which codes are client error responses?
+    answers:
+      - {correct: true,  value: 4xx}
+      - {correct: false, value: 1xx}
+      - {correct: false, value: 2xx}
+      - {correct: false, value: 3xx}
+      - {correct: false, value: 5xx}
+      - {correct: false, value: 6xx}
+      - {correct: false, value: They don't not exist}
+    help: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+  -
+    id: http-statuscodes-5
+    question: Which codes are server error responses?
+    answers:
+      - {correct: true,  value: 5xx}
+      - {correct: false, value: 1xx}
+      - {correct: false, value: 2xx}
+      - {correct: false, value: 3xx}
+      - {correct: false, value: 4xx}
+      - {correct: false, value: 6xx}
+      - {correct: false, value: They don't not exist}
+    help: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes

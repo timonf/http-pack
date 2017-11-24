@@ -1,0 +1,83 @@
+category: HTTP / Request Methods
+questions:
+  -
+    id: http-methods-1
+    question: Which HTTP methods are declared as "safe"?
+    answers:
+      - {correct: true,  value: GET}
+      - {correct: true,  value: HEAD}
+      - {correct: true,  value: OPTIONS}
+      - {correct: true,  value: TRACE}
+      - {correct: false, value: POST}
+      - {correct: false, value: PUT}
+      - {correct: false, value: DELETE}
+      - {correct: false, value: CONNECT}
+      - {correct: false, value: PATCH}
+    help: https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Summary_table
+  -
+    id: http-methods-2
+    question: Which HTTP methods are not cachable?
+    answers:
+      - {correct: true,  value: PUT}
+      - {correct: true,  value: DELETE}
+      - {correct: true,  value: CONNECT}
+      - {correct: true,  value: OPTIONS}
+      - {correct: true,  value: TRACE}
+      - {correct: true,  value: PATCH}
+      - {correct: false, value: GET}
+      - {correct: false, value: HEAD}
+      - {correct: false, value: POST}
+    help: https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Summary_table
+  -
+    id: http-methods-3
+    question: Which HTTP methods are not defined by RFC2616?
+    answers:
+      - {correct: true,  value: ROUTE}
+      - {correct: true,  value: REMOVE}
+      - {correct: true,  value: PATCH}
+      - {correct: false, value: GET}
+      - {correct: false, value: HEAD}
+      - {correct: false, value: CONNECT}
+      - {correct: false, value: DELETE}
+    help: https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Summary_table
+  -
+    id: http-methods-4
+    question: What is true about Safe Methods?
+    answers:
+      - {correct: true,  value: The client does not expect to change a resource on the server.}
+      - {correct: true,  value: GET, HEAD, OPTIONS and TRACE are safe.}
+      - {correct: false, value: GET, HEAD, OPTIONS and CONNECT are safe.}
+    help: https://tools.ietf.org/html/rfc7231#section-4.2.1
+  -
+    id: http-methods-5
+    question: What does the server response when resource is available but not the requested method?
+      - {correct: true,  value: 405}
+      - {correct: false, value: 404}
+      - {correct: false, value: 408}
+      - {correct: false, value: A 1xx, 2xx or 3xx response, depending on request}
+    help: https://tools.ietf.org/html/rfc7231#section-6.5.5
+  -
+    id: http-methods-10
+    question: What is true about the GET method?
+    answers:
+      - {correct: true,  value: A GET request is idempotent}
+      - {correct: true,  value: A GET request's response is cachable}
+      - {correct: true,  value: A GET request is safe }
+      - {correct: false, value: A GET request requires a body}
+      - {correct: false, value: A GET request needs an "User-Agent" header}
+      - {correct: false, value: This method is defined by RFC5789}
+    help: https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Summary_table
+  -
+    id: http-methods-11
+    question: What is true about the HEAD method?
+    answers:
+      - {correct: true,  value: A HEAD request is idempotent}
+      - {correct: true,  value: A HEAD request's response is cachable}
+      - {correct: true,  value: A HEAD request is safe }
+      - {correct: true,  value: This method is defined by RFC7231}
+      - {correct: true,  value: This method is defined by RFC2616}
+      - {correct: true,  value: The server must support it}
+      - {correct: false, value: A HEAD request contains a body}
+      - {correct: false, value: A HEAD request's response contains a body}
+      - {correct: false, value: A HEAD request needs an "Http-Version" header}
+    help: https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Summary_table

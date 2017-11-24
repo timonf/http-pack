@@ -1,0 +1,16 @@
+{
+    "name": "timonf/http-pack",
+    "type": "certificationy-pack",
+    "description": "A series of questions about HTTP (1.1)",
+    "keywords": ["http", "certification", "test", "exam"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Timon F",
+            "email": "dev@timonf.de"
+        }
+    ],
+    "require-dev": {
+        "certificationy/yaml-linter": "v1.0.1"
+    }
+}
