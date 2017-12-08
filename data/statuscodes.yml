@@ -60,3 +60,48 @@ questions:
       - {correct: false, value: 6xx}
       - {correct: false, value: They don't not exist}
     help: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+  -
+    id: http-statuscodes-6
+    question: What is the status code for "OK"?
+    answers:
+      - {correct: true,  value: 200}
+      - {correct: false, value: 100}
+      - {correct: false, value: 201}
+      - {correct: false, value: 202}
+      - {correct: false, value: 203}
+      - {correct: false, value: 204}
+      - {correct: false, value: 301}
+    help: https://httpstatuses.com/200
+  -
+    id: http-statuscodes-7
+    question: What is the status code for "Created"?
+    answers:
+      - {correct: true,  value: 201}
+      - {correct: false, value: 100}
+      - {correct: false, value: 200}
+      - {correct: false, value: 202}
+      - {correct: false, value: 204}
+      - {correct: false, value: 301}
+    help: https://httpstatuses.com/201
+  -
+    id: http-statuscodes-8
+    question: What is the status code for "Accepted"?
+    answers:
+      - {correct: true,  value: 202}
+      - {correct: false, value: 101}
+      - {correct: false, value: 102}
+      - {correct: false, value: 201}
+      - {correct: false, value: 204}
+      - {correct: false, value: 302}
+    help: https://httpstatuses.com/202
+  -
+    id: http-statuscodes-9
+    question: What is the status code for "No Content"?
+    answers:
+      - {correct: true,  value: 204}
+      - {correct: false, value: 103}
+      - {correct: false, value: 104}
+      - {correct: false, value: 201}
+      - {correct: false, value: 202}
+      - {correct: false, value: 301}
+    help: https://httpstatuses.com/204

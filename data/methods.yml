@@ -45,16 +45,17 @@ questions:
     question: What is true about Safe Methods?
     answers:
       - {correct: true,  value: The client does not expect to change a resource on the server.}
-      - {correct: true,  value: GET, HEAD, OPTIONS and TRACE are safe.}
-      - {correct: false, value: GET, HEAD, OPTIONS and CONNECT are safe.}
+      - {correct: true,  value: 'GET, HEAD, OPTIONS and TRACE are safe.'}
+      - {correct: false, value: 'GET, HEAD, OPTIONS and CONNECT are safe.'}
     help: https://tools.ietf.org/html/rfc7231#section-4.2.1
   -
     id: http-methods-5
     question: What does the server response when resource is available but not the requested method?
+    answers:
       - {correct: true,  value: 405}
       - {correct: false, value: 404}
       - {correct: false, value: 408}
-      - {correct: false, value: A 1xx, 2xx or 3xx response, depending on request}
+      - {correct: false, value: 'A 1xx, 2xx or 3xx response, depending on request'}
     help: https://tools.ietf.org/html/rfc7231#section-6.5.5
   -
     id: http-methods-10
